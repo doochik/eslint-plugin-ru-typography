@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-ru-typography",
+  "version": "0.0.0",
+  "description": "ESLint typography checker for russian language",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Aleksei Androsov",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "unit": "mocha tests --recursive",
+    "test": "npm run lint && npm run unit"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-node": "^7.0.1",
+    "mocha": "^5.2.0"
+  },
+  "license": "MIT"
+}
