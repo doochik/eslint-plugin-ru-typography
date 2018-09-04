@@ -15,6 +15,9 @@ ruleTester.run("no-hanging-prepositions", rule, {
         },
         {
             code: "var foo = 'елки и палки без леса'"
+        },
+        {
+            code: "var int = 100;"
         }
     ],
 
