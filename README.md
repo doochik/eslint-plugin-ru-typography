@@ -45,7 +45,19 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* `ru-typography/no-hanging-prepositions` **autofix**: check for hanging prepositions. For example, "елки и_nbsp_палки"
+* `ru-typography/no-hanging-prepositions` **autofix**: check for hanging prepositions. For example, "елки и_nbsp_палки".
+Configuration:
+```
+{
+    "rules": {
+        "ru-typography/no-hanging-prepositions": ["error", {
+            // check only this prepositions
+            // default: ["в", "во", "без", "до", "из", "к", "ко", "на", "по", "о", "от", "при", "с", "у", "не", "за", "над", "для", "об", "под", "про", "и", "а", "но", "да", "или", "ли", "бы", "то", "что", "как", "я", "он", "мы", "они", "ни", "же", "вы", "им"]
+            prepositions: ["в", "и", "по"]
+        }]
+    }
+}
+```
 
 
 

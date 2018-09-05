@@ -18,6 +18,12 @@ ruleTester.run("no-hanging-prepositions", rule, {
         },
         {
             code: "var int = 100;"
+        },
+        {
+            code: "var foo = 'елки и палки'",
+            options: [{
+                prepositions: ["в", "по"]
+            }]
         }
     ],
 
