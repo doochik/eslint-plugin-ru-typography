@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/eslint-plugin-ru-typography.svg)](https://badge.fury.io/js/eslint-plugin-ru-typography)
 [![Build Status](https://travis-ci.org/doochik/eslint-plugin-ru-typography.svg?branch=master)](https://travis-ci.org/doochik/eslint-plugin-ru-typography)
 
 # eslint-plugin-ru-typography
