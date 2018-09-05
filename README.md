@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "ru-typography/rule-name": 2
+        "ru-typography/no-hanging-prepositions": "error"
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* `ru-typography/no-hanging-prepositions` **autofix**: check for hanging prepositions. For example, "елки и_nbsp_палки"
 
 
 
