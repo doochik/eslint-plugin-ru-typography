@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/doochik/eslint-plugin-ru-typography/issues"
   },
-  "homepage": "https://github.com/doochik/eslint-plugin-ru-typography#readme"
+  "homepage": "https://github.com/doochik/eslint-plugin-ru-typography#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
