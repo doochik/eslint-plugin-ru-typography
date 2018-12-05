@@ -31,12 +31,12 @@ ruleTester.run("no-hanging-prepositions", rule, {
         {
             code: "var foo = 'елки и палки'",
             output: "var foo = 'елки и палки'",
-            errors: [{ message: "\" и \" should be followed with \\x00A0(nbsp) symbol" }]
+            errors: [{ message: "\" и \" should be followed with \\u00A0(nbsp) symbol" }]
         },
         {
             code: "var foo = 'елки и палки без леса'",
             output: "var foo = 'елки и палки без леса'",
-            errors: [{ message: "\" и \" should be followed with \\x00A0(nbsp) symbol" }]
+            errors: [{ message: "\" и \" should be followed with \\u00A0(nbsp) symbol" }]
         }
     ]
 });
