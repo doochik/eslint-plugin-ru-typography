@@ -3,7 +3,7 @@
 
 # eslint-plugin-ru-typography
 
-ESLunt typography linter for russian language
+ESLint typography linter for russian language
 
 ## Installation
 
@@ -46,7 +46,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* `ru-typography/no-hanging-prepositions` **autofix**: check for hanging prepositions. For example, "елки и_nbsp_палки".
+*  **autofix** `ru-typography/no-hanging-prepositions`: check for hanging prepositions. For example, "елки и_nbsp_палки".
 Configuration:
 ```
 {
