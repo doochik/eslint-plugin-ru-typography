@@ -46,6 +46,20 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
+*  **autofix** `ru-typography/no-hanging-hyphens`: check for hanging hyphens. For example, "елки_nbsp_- палки".
+Configuration:
+```
+{
+    "rules": {
+        "ru-typography/no-hanging-hyphens": ["error", {
+            // check only this hyphens
+            // default: ["-", "–"]
+            hyphens: ["-"]
+        }]
+    }
+}
+```
+
 *  **autofix** `ru-typography/no-hanging-prepositions`: check for hanging prepositions. For example, "елки и_nbsp_палки".
 Configuration:
 ```
