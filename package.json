@@ -21,7 +21,7 @@
     "mocha": "^5.2.0"
   },
   "peerDependencies": {
-    "eslint": "^5.x || ^6.x || ^7.x || ^8.x",
+    "eslint": "^5.x || ^6.x || ^7.x || ^8.x"
   },
   "license": "MIT",
   "directories": {
