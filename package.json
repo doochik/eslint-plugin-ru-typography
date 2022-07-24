@@ -10,15 +10,14 @@
   "author": "Aleksei Androsov",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint .",
-    "unit": "mocha tests --recursive",
-    "test": "npm run lint && npm run unit"
+    "eslint": "eslint .",
+    "test": "mocha tests --recursive"
   },
   "devDependencies": {
-    "eslint": "^5.0.0",
-    "eslint-config-eslint": "^5.0.1",
-    "eslint-plugin-node": "^6.0.1",
-    "mocha": "^5.2.0"
+    "eslint": "^8.20.0",
+    "eslint-config-eslint": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^10.0.0"
   },
   "peerDependencies": {
     "eslint": "^5.x || ^6.x || ^7.x || ^8.x"
