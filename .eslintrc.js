@@ -10,6 +10,7 @@ module.exports = {
         ecmaVersion: 2016
     },
     rules: {
-        "linebreak-style": ["error", "unix"]
+        "linebreak-style": ["error", "unix"],
+        "no-irregular-whitespace": "off"
     }
 };
